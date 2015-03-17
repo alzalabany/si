@@ -1,0 +1,90 @@
+<h1 ng-init="selectedItem ='Poland'">TimeTable
+    <select id="class" class="ng-binding">Poland
+        <option value="Poland">Poland</option>
+        <option value="England">England</option>
+    </select>
+</h1>
+<div class="card">
+<div class="row" id="timetable">
+    <h4 class="page-header">{{selectedItem}}</h4><div class="table-responsive">
+    <table id="classTable" class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th>Day</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>Break</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+        </tr>
+        </thead>
+        <tbody><tr data-day="0">
+            <th>Sun</th>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>            </tr>
+        <tr data-day="1">
+            <th>Mon</th>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" >  </td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>            </tr>
+        <tr data-day="2">
+            <th>Tue</th>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" >  </td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>            </tr>
+        <tr data-day="3">
+            <th>Wed</th>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" >  </td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>            </tr>
+        <tr data-day="4">
+            <th>Thu</th>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" >  </td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>
+            <td ng-dblclick="doit($event)" ></td>            </tr>
+        </tbody></table>
+</div>
+
+</div>
+</div>

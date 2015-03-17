@@ -1,0 +1,64 @@
+<div class="row">
+    <div class="col-xs-9" id="wall">
+        <ul class="chat list-unstyled">
+        <li class="left card" ng-repeat="post in posts">
+            <span class="chat-img pull-left"><img class="img-circle" alt="User Avatar" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEyLjUiIHk9IjMyIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9nPjwvc3ZnPg=="></span>
+            <div class="chat-body clearfix">
+                <div class="header">
+                    <strong class="primary-font">{{post.user}}</strong>
+                    <small class="pull-right text-muted">
+                        <i class="fa fa-clock-o fa-fw"></i> 12 mins ago
+                    </small>
+                </div>
+                <p style="margin-top: 10px;">
+                    {{post.body}}
+                </p>
+                <div style="display: block;">
+                    <input class="form-control" placeholder="reply.." />
+                </div>
+            </div>
+        </li>
+        </ul>
+
+    </div>
+
+    <div class="col-xs-3" style="overflow: auto;max-height: 90vh;">
+        <h4>Members</h4>
+        <ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-user"></i> User 1</li>
+            <li class="list-group-item"><i class="fa fa-user"></i> User 2</li>
+            <li class="list-group-item"><i class="fa fa-user"></i> User 3</li>
+        </ul>
+        <h4>Uploaded files</h4>
+        <ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-file"></i> file a</li>
+            <li class="list-group-item"><i class="fa fa-file"></i> file b</li>
+        </ul>
+    </div>
+
+</div>
+<style>
+    .card{
+        display: block;
+        background: #fff;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: #dae1e8 #d3dde5 #b6c8d8;
+        border-image: none;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 1px 0 0 rgba(56, 61, 72, 0.09);
+        margin-bottom: 14px;
+        vertical-align: top;
+        padding: 10px 10px 0 10px;
+    }
+    .chat li.left .chat-body {
+        margin-left: 60px;
+    }
+    .chat li .chat-body p {
+        margin: 0;
+    }
+</style>

@@ -1,0 +1,121 @@
+<div class="card">
+    <div style="display: inline-block;width: 20%;" class="align">
+    <img width="150px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEyLjUiIHk9IjMyIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9nPjwvc3ZnPg==" class="pull-left">
+    </div>
+
+    <div id="profile-info" style="display: inline-block;width: 78%;" class="align">
+        <label class="fa-2x">Momen Zalabany</label><br/>
+        <small>Teacher</small><br/>
+        <ul class="list-inline stats">
+            <li><label class="text-primary">30</label><small>Students</small></li>
+            <li><label class="text-primary">2</label><small>Teachers</small></li>
+            <li><label class="text-primary">1</label><small>Library</small></li>
+            <li><label class="text-primary">8</label><small>Lessons</small></li>
+            <li><label class="text-primary">14</label><small>posts</small></li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <div class="card">
+            <h4>Badges</h4>
+            <img src="./assets/img/ok.png" width="50px" title="student of the month"/>
+            <img src="./assets/img/10.png" width="50px" title="10 assignments completed in time"/>
+        </div>
+        <div class="card">
+            <h4>Class room</h4>
+            <button class="btn-block btn-warning">Class a</button>
+            <button class="btn-block btn-success">Class b</button>
+        </div>
+    </div>
+    <div class="col-xs-9">
+        <div class="card">
+            <h4>Abour me <i class="fa fa-pencil"></i> </h4>
+            <p>
+                Momen is a senior English student at elm school, he joined us on 1999 <br/>
+                Help us rating momen and give him a 5 stars :)
+            </p>
+        </div>
+        <div class="card">
+            <h4>Scores</h4>
+            <ul class="list-group">
+                <li class="list-group-item" onclick="$(this).find('p').slideToggle();">
+                    Jr 2
+                    <p style="display: none;">
+                        <label>math :</label> 100/100<br/>
+                        <label>English :</label> 90/100
+                    </p>
+                </li>
+                <li class="list-group-item" onclick="$(this).find('p').slideToggle();">Jr 1</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h4>Skills</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info active" style="width: 20%">
+                    <label>Reading</label>
+                </div>
+            </div>
+
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-success active" style="width: 40%">
+                    <label>Intel skills</label>
+                </div>
+            </div>
+
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-warning progress-striped active" style="width: 60%">
+                    <label>Listening</label>
+                </div>
+            </div>
+
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-danger" style="width: 80%">
+                    <label>Motor skills</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    #profile-info ul{
+        border-top: 1px solid #c0c0c0;
+        margin: 25px 0 0 0;
+    }
+    #profile-info ul li>label{
+        display: block;
+    }
+    #profile-info ul li{
+        min-width: 19%;
+        text-align: center;
+        font-size: medium;
+    }
+    .card{
+        display: block;
+        background: #fff;
+        padding: 20px 15px 15px 20px;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: #dae1e8 #d3dde5 #b6c8d8;
+        border-image: none;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 1px 0 0 rgba(56, 61, 72, 0.09);
+        margin-bottom: 14px;
+    vertical-align: top;
+    }
+    .card > h4:hover > i{display: inline-block;cursor: pointer;}
+    .card > h4 > i{
+        display: none;
+    }
+    .card > h4{
+        margin-top: -10px;
+    }
+    .card .align{
+        display: inline-block;
+        vertical-align: top;
+    }
+</style>

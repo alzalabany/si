@@ -1,0 +1,25 @@
+<div class="card">
+<h2 class="">{{msg.title}} <bkbutton back="back"></bkbutton></h2>
+<div class="media-list" style="overflow-y:auto;max-height:{{$root.innerHeight / 2}}px;">
+    <div ng-repeat="r in msg.data track by r.id">
+        <div class="media" style="margin:5px 0;padding-bottom:10px;border-bottom:1px solid #ddd;">
+            <div class="media-left">
+                <a href="#/user/{{r.user_id}}">
+                    <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEyLjUiIHk9IjMyIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
+                </a>
+            </div>
+            <div class="media-body">
+                <h5 class="media-heading text-primary">
+                    {{r.name}}
+                    <small class="hidden-xs"><i class="fa fa-clock-o"></i>{{r.date | dateToISO | date:'h:mma @dd/MMM/yyyy'}}</small>
+                </h5>
+                {{r.msg}}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<textarea class="form-control send-message" rows="3" placeholder="Write a reply..." ng-model="body" ng-enter="addMsg()"></textarea>
+<button class="btn btn-success btn-md pull-right" ng-click ="addMsg()"><i class="fa fa-plus"></i> Send Message</button>
+</div>
