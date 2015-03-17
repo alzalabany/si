@@ -1,0 +1,622 @@
+/***** Font Definition for Open Sans. This stylesheet comes from qrohlf.com/posts/better-opensans *****/
+
+/* Regular */
+@font-face {
+    font-family: 'Open Sans';
+
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    src: url('../fonts/DroidKufi-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    src: url('../fonts/DroidKufi-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Italic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+/* Light */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/* Light Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+/* Semibold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+/* Semibold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/* Extra Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+
+}
+html{
+	width: 100%;
+  	height: 100%;	
+}
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  color: rgb(51, 51, 51);
+  font-family: "Open Sans","Lato", sans-serif;
+  font-size: 13px;
+  direction: ltr;
+  background: rgb(233, 236, 243);
+  width: 100%;
+  height: 100%;
+}
+/* ==========================================================================
+   NAVBAR
+   ========================================================================== */
+
+.si-wrap{
+	display: table;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	table-layout:fixed;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+.si-row{
+	display: table-row;
+}
+.si-col{
+	display: table-cell;
+	vertical-align: top;
+}
+.si-col,.brand,.si-col-collapse{
+	-webkit-transition: width 0.4s; /* Safari */
+    transition: width 0.4s;
+}
+.si-col-collapse{
+	display: table-cell;
+	width: 250px;
+	vertical-align: top;
+}
+.si-topnav .menu i{
+color: #c0cddc;
+}
+.si-topnav .menu {
+    list-style: outside none none;
+    margin: 20px;
+    font-size: 16px;
+ }
+ .si-topnav .menu>li{
+ 	display: inline-block;
+ 	margin: 0 5px;
+ }
+ .si-topnav .menu>li>a{
+ 	padding:29px 12px 24px;
+ }
+.si-topnav{
+	height: 75px;
+	background: #fff;
+	border-bottom: 1px solid #e9ecf3;
+}
+.si-topnav .actions{
+	display: inline-block;
+	line-height: 75px;
+}
+.closed .actions{
+	margin-left: 20px;
+}
+.si-topnav .actions>.btn:hover{
+	color: #333;
+}
+.si-topnav .actions>.btn{
+	color: #ccc;
+	background: #fff;
+}
+
+.si-topnav .brand{
+	font-size: 23px;
+	font-weight: bold;
+	color: #5b9bd1;
+    margin-left: 20px;
+    max-width: 170px;
+    display: inline-block;
+    overflow: hidden;
+}
+.si-container  article{padding: 0 20px;}
+
+.si-sidebar{
+    list-style: outside none none;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 0;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+
+.si-sidebar li,.si-sidebar li.active{
+	display: block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.si-sidebar li:first-child {
+    padding-top: 10px;
+}
+.si-sidebar li:last-child {
+    padding-bottom: 10px;
+}
+.si-sidebar li > a {
+    color: #485a6a;
+    border: 0 none;
+    display: block;
+    margin: 1px 0 0;
+    padding: 12px 15px;
+    position: relative;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.si-sidebar li.active > a,.si-sidebar li > a >i {
+	color: #5b9bd1;
+    font-size: 20px;
+}
+.si-sidebar li i{
+	margin-right: 10px;
+}
+.si-sidebar li.active > a,.si-sidebar li:hover > a {
+    border-left: 3px solid #5c9acf !important;
+    margin-left: -3px;
+    padding-left: 15px;
+    background-color: #f2f6f9;
+    color: #5b9bd1;
+    z-index: 9999999999;
+}
+
+.closed .brand{
+	display: width: 0 !important;
+	color: #fff;
+}
+.closed .si-sidebar li .title{
+	display: none;
+}
+.closed .si-sidebar li:hover .title{
+	display: inline-block;
+}
+.closed .si-sidebar li:hover{
+	display: block !important;
+    position: block !important;
+    width: 235px !important;
+    z-index: 10000;
+    box-shadow: 5px 5px rgba(140, 178, 198, 0.2);
+}
+.si-col-collapse.closed{
+	width: 65px;
+}
+
+@media screen and (max-width: 600px) {
+  .actions{
+	margin-left: 20px;
+	}
+  .brand{
+	width: 0 !important;
+	color: #fff;
+  }
+  .si-sidebar li:hover{
+	position: absolute;
+    width: 235px;
+    z-index: 999999;
+  }
+  .si-col-collapse{
+	width: 45px;
+  }
+  .si-sidebar {
+  	margin-left: 0;
+  }
+  .si-sidebar .title{
+  	display: none;
+  }
+  .si-sidebar li:hover .title{
+  	display: inline-block;
+  }
+
+}
+
+
+
+/**********************************************
+ARTICLE
+*********************************************/
+.si-container article{
+	padding: 20px;
+}
+.si-container article h1{
+	color: #697882;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 20px 0;
+	padding: 0px;
+	text-transform: capitalize;
+}
+
+.card{
+	border-radius: 4px;
+	background: #FFF;
+	padding: 15px 15px 5px;
+	margin-bottom: 20px;
+}
+.card .display{
+    margin:0px;
+}
+.card .display h3{
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	font-weight: 400;
+  	text-transform: capitalize;
+}
+.card .display h3>small,.card .display h3>i{
+	float: right;
+	clear: none;
+	color: #cbd4e0;
+}
+.card > small{
+	color: #aab5bc;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card .display small{
+	font-size: 14px;
+	color: #AAB5BC;
+	font-weight: 600;
+	text-transform: uppercase;
+	clear: both;
+	white-space: nowrap;
+}
+.card .progress{
+	height: 4px;
+	margin: 10px 0 5px;
+}
+.card hr{
+	margin: 10px 0 5px;
+}
+
+.card > header{
+	border-bottom: 1px solid #eee;
+    color: #5b9bd1;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.card > ul > li{
+    background-color: #fafafa;
+    color: #82949a;
+    margin-bottom: 7px;
+}
+.card > ul > li > .btn{
+	margin-right: 5px;
+}
+.card > ul > li > span{
+	margin-right: 10px;
+	float: right;
+	color: #ccc;
+}
+/**********************************************
+reusables
+*********************************************/
+.font-blue{
+    color: #5C9BD1  !important;
+}
+hr.blue,.progress-bar.blue{
+	 border: 0; height: 4px; background: #5C9BD1  !important;
+	 border-radius: 4px;
+}
+.font-purple{
+    color: #8877A9 !important;
+}
+hr.purple,.progress-bar.purple{
+	 border: 0; height: 4px; background: #8877A9 !important;
+	 border-radius: 4px;
+}
+
+hr.green,.progress-bar.green{
+	 border: 0; height: 4px; background: #4DB3A2 !important;
+	 border-radius: 4px;
+}
+.font-green{
+    color: #4DB3A2 !important;
+}
+hr.red,.progress-bar.red{
+	 border: 0; height: 4px; background: #F36A5A !important;
+	 border-radius: 4px;
+}
+.font-red{
+    color: #F36A5A !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color: inherit;
+	line-height: 1.1;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.h3, h3 {
+	font-size: 24px;
+}
+a {
+    color: #5b9bd1;
+    text-shadow: none;
+}
+span.title{
+	display: inline-block;
+	margin: 0 3px;
+	font-weight: 400;
+	font-size: 14px;
+}
+li.separator{
+	background:#f0f3f5;
+    height: 18px;
+    margin: 26px 0 0;
+    padding: 0;
+    width: 1px;
+}
+.bold {
+	font-weight: 700 !important;
+}
+li [class^='fa-'], li [class^='glyphicon-'], li [class^='icon-'], li [class*=' fa-'], li [class*=' glyphicon-'], li [class*=' icon-'] {
+	width: 1.25em;
+	text-align: center;
+	display: inline-block;
+}
+.label {
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	text-shadow: none !important;
+	padding: 0.2em 0.6em 0.3em;
+	border-radius: 0.25em;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	display: inline;
+	white-space: nowrap;
+    text-align: center !important;
+}
+.label-danger {
+	background-color: rgb(217, 83, 79);
+}
+.label-info {
+	background-color: rgb(91, 192, 222);
+}
+.label-warning {
+	background-color: rgb(240, 173, 78);
+}
+.label-success {
+	background-color: rgb(92, 184, 92);
+}
+
+.label-icon.label > i {
+	text-align: center !important;
+	font-size: 12px;
+}
+.label-icon.label {
+	padding: 4px 0px 4px 4px;
+	text-align: center !important;
+	margin-right: 2px;
+}
+
+.badge-success{
+	background-color: #45b6af;
+}
+.badge-danger{
+	background-color:#f3565d;
+}
+.badge-primary{
+	background-color: #428bca;
+}
+
+
+.menu .dropdown-menu{
+	background: #fff;
+	border-bottom-color: #cbd2e3;
+	max-width: 275px;
+    min-width: 160px;
+    width: 275px;
+    z-index: 9995;
+    border-radius: 4px;
+    margin-top: 9px;
+    padding: 0;
+}
+
+.dropdown-menu > li.external{
+	background: #e3e6f0;
+	border-radius: 4px 4px 0 0;
+    display: block;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.dropdown-menu > li.external > h3{
+	display: inline-block;
+    float: left;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    color: #62878f;
+}
+.dropdown-menu > li.external > a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    clear: inherit;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: -1px;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+}
+.dropdown-menu .dropdown-menu-list {
+    list-style: outside none none;
+    padding-left: 0;
+    padding-right: 0 !important;
+}
+
+
+.dropdown-menu .dropdown-menu-list li > a i {
+	width: 15px;
+	margin-right: 9px;
+	display: inline-block;
+}
+.dropdown-menu .dropdown-menu-list > li > a {
+    border-bottom: 1px solid #eff2f6 !important;
+    color: #888888;
+    clear: both;
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 8px 14px;
+    text-shadow: none;
+    white-space: normal;
+}
+.dropdown-menu .dropdown-menu-list .details{
+	overflow: hidden;
+}
+.dropdown-menu .dropdown-menu-list .label-icon {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.dropdown-menu .dropdown-menu-list .time{
+		background-color:#f1f1f1;
+	    float: right;
+	    font-size: 11px;
+	    font-weight: 400;
+	    max-width: 75px;
+	    opacity: 0.7;
+	    padding: 1px 5px;
+	    text-align: right;
+}
